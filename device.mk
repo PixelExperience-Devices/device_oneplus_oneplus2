@@ -320,5 +320,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     WallpapersBReel2018
 
+# MIUI Charger
+PRODUCT_PACKAGES += \
+    chargeonlymode
+
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)

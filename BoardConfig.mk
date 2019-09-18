@@ -64,7 +64,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8994
 TARGET_KERNEL_CONFIG := oneplus2_defconfig
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := ~/aarch64-linux-android-4.9-uber-master/bin/aarch64-linux-android-
 
 # Audio
 AUDIO_FEATURE_ENABLED_ACDB_LICENSE := true
